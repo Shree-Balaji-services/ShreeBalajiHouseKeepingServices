@@ -3,17 +3,24 @@ body {
 }
 .homePage{
 
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.cardsAlign{
     display: flex;
     flex-wrap: wrap;
     grid-gap: 10px;
     justify-content: center;
-
+    /* margin-top: 10px; */
 }
-.card{
+.cardsAlign .card{
     border-radius: 30px !important;
+    margin-top: 10px;
 }
 .card img{
     border-radius: 30px !important;
+    object-fit: cover;
 }
 
 .sticky {
