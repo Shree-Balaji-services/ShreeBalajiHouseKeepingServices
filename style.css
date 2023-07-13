@@ -1,0 +1,17 @@
+body {
+    background-color: antiquewhite;
+}
+.homePage{
+
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    justify-content: center;
+
+}
+.card{
+    border-radius: 30px !important;
+}
+.card img{
+    border-radius: 30px !important;
+}
