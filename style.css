@@ -15,3 +15,9 @@ body {
 .card img{
     border-radius: 30px !important;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
